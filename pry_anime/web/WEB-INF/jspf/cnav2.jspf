@@ -1,0 +1,22 @@
+<div class="contenedor">
+    <div class="superior">
+        <div class="logo" style="float:right"><a href="PagLogin.jsp"><img src="Resources/imagenes/login3.png" class="parque" ></a></div>
+        <nav class="menusup">
+            <ul class="opciones">
+                <li><a href="PagLista2.jsp">Inicio</a></li>
+                <li><a href="PagQuienesSomos.jsp">Nosotros</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Noticias</a></li>
+                <li><a href="#">Contacto</a></li>
+                
+            </ul>
+        </nav>
+    </div>
+</div>
+
+    <section class="baner">
+        <section class="mayor">
+            <img src="Resources/imagenes/banner.jpg" id="corredizo" width="100%" height="220px">
+        </section>
+
+    </section>

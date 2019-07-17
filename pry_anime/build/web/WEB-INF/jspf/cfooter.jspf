@@ -1,0 +1,10 @@
+
+<footer class="abajo">
+    <div class="redes">
+        <img src="Resources/imagenes/twitter.png" alt="" class="sociales">
+        <a href="https://www.facebook.com/" target="_blank"><img src="Resources/imagenes/facebook.png" alt="" class="sociales"></a>
+        <img src="Resources/imagenes/linkedin.png" alt="" class="sociales">
+  
+        <a href="https://www.youtube.com/channel/UC6iq92Qmn30hsmqLInfXT1w/videos" target="_blank"><img src="Resources/imagenes/youtube.png" alt="" class="sociales"></a>
+    </div>
+</footer>

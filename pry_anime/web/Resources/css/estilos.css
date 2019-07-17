@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    background: white;
+    width: 100%;
+    margin: 2px auto;
+}
+/*  background: rgba(6,6,6,0.7); sirve para poner de un fondo */
+.superior{
+    overflow: hidden;
+    position:absolute;
+    top:115px;
+    background: rgba(6,6,6,0.7);
+    width: 100%;
+}
+
+.logo{float: left; width: 390px;}
+
+/*tamanio del logo*/
+
+
+.parque{width: 23%; margin: 20px 10px 12px 2px;} 
+
+.parque:mouseout{
+    transform:scale(0);
+    opacity:0.5;
+    transition:all 3s;
+
+}
+
+
+
+
+/*Para bajar mas el logo*/
+.menusup{float: left; padding-top: 45px;}
+.opciones li{
+    float: left;
+    list-style: none;
+}
+.opciones li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 30px 50px;
+    display: block;
+}
+
+.baner{overflow: hidden; padding: 15px 0;}
+.chicas{margin: 0px auto; width: 1050px; height: 100px;}
+.cuerpo{overflow: hidden;padding-left: 10px;}
+.cuadro{
+    width: 327px;
+    background: white;
+    float: left;
+    margin: 12px;
+    box-shadow: 0px 0px 20px 0px #c5c5c5;
+    height: 370px;
+}
+
+
+.posicion{width: 200px;height: 100px;}
+.cuadro:hover{cursor: pointer;}
+.descripcion{ padding:15px;}
+.subtitulo{
+    text-align: center;
+    padding: 2px 0 20px 0;
+}
+.sociales{width:70px;}
+.abajo{
+    background:#1A1A1A;}
+.redes{ width: 400px; margin: 30px auto;padding: 30px 0;}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*Agregamos margenes inferiores a los parrafos*/
+p{
+    margin-bottom: 20px;
+}
+
+header{
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+nav {
+    float: left; /* Desplazamos el nav hacia la izquierda */
+}
+
+nav ul{
+    list-style: none;
+    overflow: hidden; /* Limpiamos errores de float */
+}
+
+nav ul li{
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+nav ul li a{
+    display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    background: blue;
+}
+
+.contenido{
+    padding-top: 80px;
+}
+
+.wrapper{
+    width: 80%;
+    margin: auto;
+    overflow:hidden;
+}

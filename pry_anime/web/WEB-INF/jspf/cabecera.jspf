@@ -1,0 +1,12 @@
+<%@page import="controlador.DaoCategoria"%>
+<%@page import="clase.*" %>
+
+<link href="Resources/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<link href="Resources/bootstrap/bootstrap.css" rel="stylesheet" type="text/css"/>
+<link href="Resources/bootstrap/bootstrap-grid.css" rel="stylesheet" type="text/css"/>
+<link href="Resources/bootstrap/bootstrap-reboot.css" rel="stylesheet" type="text/css"/>
+
+
+<%
+DaoCategoria obj = new DaoCategoria();
+%>
